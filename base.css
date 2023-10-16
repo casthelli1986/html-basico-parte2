@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(213, 250, 238);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(226, 255, 255);
+    padding: 10px 20px 0px;
+}
+.menu ul {
+    padding-left: 0;
+}
+.menu ul li {
+    list-style: none;
+}
+.header {
+    background-color: rgb(165, 204, 204);
+    min-height: 150px;
+    text-align: center;
+    padding: 30px 60px;
+}
+.header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.header img.top {
+    object-position: top;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 30px 60px;
+}
+.content hr {
+    margin: 30px 0;
+}
+.content .titulo,
+.content .video {
+    text-align: center;
+}
+.content blockquote {
+    font-size: 22px;
+    color: rgb(106, 173, 151);
+}
+.content .text-center {
+    text-align: center;
+}
+.content .text-right {
+    text-align: end;
+}
+.content ul li {
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: rgb(216, 205, 255);
+    min-height: 150px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .col {
+    width: 30%;
+    padding: 0 20px;
+}
+.content ul,
+.footer ul {
+    padding-left: 0;
+}
+.content ul li,
+.footer ul li {
+    list-style: none;
+}
+
+/* Table */
+table thead th {
+    background-color: aquamarine;
+}
+table tr:nth-child(even) {
+    background-color: azure;
+}
+table tbody tr td {
+    text-align: center;
+}
+table tbody tr td.servico {
+    text-align: left;
+}
+table tfoot {
+    background-color: aliceblue;
+}
+
+/* Formulário */
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: solid 1px #c3c3c3;
+}
+.formulario .required {
+    color: red;
+}
+.formulario button {
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.formulario .submit {
+    background-color: aquamarine;
+}
+.formulario .submit:hover {
+    background-color: aqua;
+}
